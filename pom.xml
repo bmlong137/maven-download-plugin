@@ -295,6 +295,16 @@
 			<id>maven-download-plugin</id>
 			<url>scm:git:ssh://git@github.com/maven-download-plugin/maven-download-plugin.git</url>
 		</site>
+		<repository>
+			<id>alfresco-training</id>
+			<name>Alfresco Training Releases</name>
+			<url>https://artifacts.alfresco.com/nexus/content/repositories/training-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>alfresco-training-snapshots</id>
+			<name>Alfresco Training Snapshots</name>
+			<url>https://artifacts.alfresco.com/nexus/content/repositories/training-snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 	<!-- Miscellaneous build properties (SCM, license, issues, etc) -->
 	<description> This is a plugin meant to help maven user to download
